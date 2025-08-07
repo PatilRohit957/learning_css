@@ -1,0 +1,65 @@
+.margin{
+    border: 8px solid black;
+    padding: 40px;
+    margin: 40px;
+}
+
+.img{
+    border: 10px solid black;
+    padding: 20px;
+    margin: 80px 40px 80px 40px;
+    width: 550px;
+    border-radius: 15px;
+     box-shadow:14px 12px 8px gray ;
+}
+
+.linear{
+
+    border: 8px solid black;
+    height: 400px;
+    background: linear-gradient(orange,white,green);
+    padding: 80px;
+    margin: 80px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 4px 8px 10px gray;
+
+}
+
+.heading{
+    font-size: 100px;
+    text-align: center;
+    padding-top: 100px;
+    color: aqua;
+}
+
+.radial{
+      padding: 10px;
+    border: 8px solid red;
+    border-radius: 500px;
+    height: 400px;
+    background: radial-gradient(circle  ,white ,yellow,orange,red);
+    width: 250px;
+    height: 250px;
+}
+
+.conical{
+    border: 8px solid red;
+    height: 400px;
+    width: 400px;
+    background: conic-gradient(from 360deg, red ,orange,yellow,white);
+}
+
+/* .body{
+    background-image: url("images/dog.jpg");
+    background-repeat: no-repeat;
+    background-size: auto cover;
+    background-position: top center;
+    
+} */
+
+/* .bg{
+    text-align: center;
+    color: black;
+} */
+
+    
