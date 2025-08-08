@@ -49,13 +49,19 @@
     background: conic-gradient(from 360deg, red ,orange,yellow,white);
 }
 
-/* .body{
-    background-image: url("images/dog.jpg");
+ .body{
+    background-image: url("/images/dog.jpg");
     background-repeat: no-repeat;
     background-size: auto cover;
     background-position: top center;
+    width: 1000px;
+    height: 1200px;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    padding: 600px;
     
-} */
+}
 
 /* .bg{
     text-align: center;
