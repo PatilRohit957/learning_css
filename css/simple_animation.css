@@ -1,0 +1,22 @@
+div{
+    width: 150px;
+    height: 150px;
+     background-color: red; 
+    position: relative;
+    animation: myFirstAnimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    background-size: cover;
+    background-position: center; 
+}
+
+@keyframes myFirstAnimation {
+    0%{background-image: url('/images/pic1.jpg');left: 0px;top:0px}
+     25%{background-image: url('/images/img1.png');left: 300px;top:0px}
+     50%{background-image: url('/images/pic3.jpg');left: 300px;top:300px}
+      75%{background-image: url('/images/pic4.jpg');left: 0px;top:300px}
+       100%{background-image: url('/images/pic1.jpg');left: 0px;top:0px}    
+}
+
