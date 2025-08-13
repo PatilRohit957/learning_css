@@ -58,7 +58,7 @@
 }
 
 .box9:hover{
-    transform:scale(2) rotate(20deg) translateX(100px);
+    transform:rotate(180deg) skew(180deg) ;
 }
 
 .img-wrapper{

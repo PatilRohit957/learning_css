@@ -1,0 +1,37 @@
+ul{
+    width: 200px;
+    padding: 10px;
+    list-style-type:none;
+    font-weight: 900;
+}
+
+li{
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+li:nth-child(odd){
+    background-color: aquamarine;
+    color: brown;
+}
+
+li:nth-child(even){
+    background-color: rgba(232, 13, 210, 0.259);
+    color: rgb(207, 213, 8);
+}
+li:nth-child(5){
+    background-color: rgb(74, 123, 11);
+    color: rgb(115, 117, 225);
+}
+
+li:first-child{
+    background-color: goldenrod;
+    color: rgb(212, 14, 202);
+}
+li:last-child{
+    background-color: rgb(242, 28, 28);
+    color: rgb(red, green, blue);
+}
+
